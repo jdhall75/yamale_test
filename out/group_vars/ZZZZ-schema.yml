@@ -1,0 +1,3 @@
+hub_number: int(min=1, max=99)
+site_abvr: str(min=4, max=4)
+site_addr: str()
