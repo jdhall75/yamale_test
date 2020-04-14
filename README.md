@@ -14,8 +14,7 @@ $ pipenv shell
 ## Intro
 The `file_generator.py` script will just create some example YAML documents to run tests against.  Some sample files are included already.
 
-In the `out/group_vars` directory you will find the the schema file `ZZZZ-schema.yml`.  The idea was to match the length of the file name
-with the same numbers of Z's  In a directory listing this would put the schema just below the same files it is meant to test.
+In the `out/group_vars` directory you will find the the schema file `ZZZZ-schema.yml`.  The idea was to match the length of the file names to validate with the same numbers of Z's.  In a directory listing, `ls -l`, this would put the schema just below the YAML files it is meant to validate.
 
 ## Running
 From the root of the project folder
